@@ -1,9 +1,231 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "furniture": [
+      {
+          "id": 1, 
+          "url": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?cs=srgb&dl=pexels-martin-p%C3%A9chy-1866149.jpg&fm=jpg",
+          "color": "brown",
+          "price": "$250",
+          "status": "Available",
+          "bargain": "open",
+          "signage": " Brown Leather Sofa"
+      },
+      {
+          "id": 2, 
+          "url": "https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?cs=srgb&dl=pexels-rachel-claire-4846097.jpg&fm=jpg",
+          "color": "green",
+          "price": "$350",
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Green Velvet Couch"
+      }, 
+      {
+          "id": 3, 
+          "url": "https://micheleomega.typepad.com/.a/6a00d8341d1db453ef014e86e498f8970d-450wi",
+          "color": "white",
+          "price": "$420",
+          "status": "Sold",
+          "bargain": "open",
+          "signage": "White-Couch"
+      },
+      {
+          "id": 4, 
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvb80-ckPZvIorLOgllZFJPFKLl9vfkYttJw&usqp=CAU",
+          "color": "grey",
+          "price": "$300",
+          "status": "Available",
+          "bargain": "open", 
+          "signage": "Two-Seat-Couch"
+      }, 
+      {
+          "id": 5, 
+          "url": "https://images.pexels.com/photos/6969835/pexels-photo-6969835.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6969835.jpg&fm=jpg",
+          "color": "dark-brown",
+          "price": "$450",
+          "status": "Available",
+          "bargain": "closed", 
+          "signage": "Brown Dining Set"
+      }, 
+      {
+          "id": 6, 
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1GgIjgCqWyy5bFv3lF3bsTTi66ceObBRJmyC0VfviK2zdomZ38avzjKEy4ymaxbfVoPk&usqp=CAU",
+          "color": "light-green",
+          "price": "$420", 
+          "status": "Available",
+          "bargain": "open", 
+          "signage": "Green Dining Set"
+      },
+      {
+          "id": 7, 
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXuRsSdm8nQkPGUy6PsTFMWa-_hDIl0oRBaO-e2xYlX99C02A_d_dPKsGXaVriktPRq8&usqp=CAU",
+          "color": "black",
+          "price": "$380", 
+          "status": "sold",
+          "bargain": "open", 
+          "signage": "Grey Dining Set"
+      }, 
+      {
+          "id": 8, 
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1q3CQ7dL35zL8hig7yboOA5X6y5S3kUEcoBiKXK4EZ_PDNQ6i2dd98mt9zQiopETxUo&usqp=CAU",
+          "color": "beige",
+          "price": "$280", 
+          "status": "sold",
+          "bargain": "open",
+          "signage": "Suede Arm Chair"
+          
+      }, 
+      {
+        "id": 9, 
+          "url": "https://images.pexels.com/photos/923192/pexels-photo-923192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "beige",
+          "price": "$280", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Two arm Suede Chairs"
+      }, 
+      {
+        "id": 10, 
+          "url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "dark-brown",
+          "price": "$380", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Black Fabric Sectional Sofa"
+      }, 
+      {
+        "id": 11, 
+          "url": "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "assorted",
+          "price": "$180", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Two Padded Chairs"
+      },
+      {
+        "id": 12, 
+          "url": "https://images.pexels.com/photos/1668860/pexels-photo-1668860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "brown",
+          "price": "$320", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Round Brown Wooden Table"
+      }, 
+      {
+        "id": 13, 
+          "url": "https://images.pexels.com/photos/1631918/pexels-photo-1631918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "beige",
+          "price": "$160", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Sofa"
+      }, 
+      {
+        "id": 14, 
+          "url": "https://images.pexels.com/photos/5712149/pexels-photo-5712149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "dark-grey",
+          "price": "$380", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Grey Sofa Bed"
+      }, 
+      {
+        "id": 15, 
+          "url": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "light-brown",
+          "price": "$420", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Brown Sofa"
+      },
+      {
+        "id": 16, 
+          "url": "https://images.pexels.com/photos/105004/pexels-photo-105004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "light-brown",
+          "price": "$120", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "One Seater Sofa"
+      }, 
+      {
+        "id": 17, 
+          "url": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "blue",
+          "price": "$120", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Blue Sofa"
+      },
+      {
+        "id": 18, 
+          "url": "https://images.pexels.com/photos/1125135/pexels-photo-1125135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "assorted",
+          "price": "$160", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Assorted Throw Pillow Couch"
+      }, 
+      {
+        "id": 19, 
+          "url": "https://images.pexels.com/photos/276746/pexels-photo-276746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "beige",
+          "price": "$120", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Beige Fabric Sofa"
+      }, 
+      {
+        "id": 20, 
+          "url": "https://images.pexels.com/photos/923192/pexels-photo-923192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "beige",
+          "price": "$280", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Two arm Suede Chairs"
+      }, 
+      {
+        "id": 21, 
+          "url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "dark-brown",
+          "price": "$380", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Black Fabric Sectional Sofa"
+      }, 
+      {
+        "id": 22, 
+          "url": "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "assorted",
+          "price": "$180", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Two Padded Chairs"
+      },
+      {
+        "id": 23, 
+          "url": "https://images.pexels.com/photos/1668860/pexels-photo-1668860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "brown",
+          "price": "$320", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Round Brown Wooden Table"
+      }, 
+      {
+        "id": 24, 
+          "url": "https://images.pexels.com/photos/1631918/pexels-photo-1631918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "beige",
+          "price": "$160", 
+          "status": "Available",
+          "bargain": "closed",
+          "signage": "Sofa"
+      }, 
+      {
+        "id": 25, 
+          "url": "https://images.pexels.com/photos/5712149/pexels-photo-5712149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "color": "dark-grey",
+          "price": "$380", 
+          "status": "Available",
+          "bargain": "open",
+          "signage": "Grey Sofa Bed"
+      } 
+        
+  ]
 }
